@@ -1,0 +1,705 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+/*Navbar*/
+
+
+nav {
+    z-index: 1;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #F22579;
+    margin: 0px 15px 0px 15px;
+    font-family: 'Lato', sans-serif;
+    font-size: 19px;
+    
+}
+
+.bkgCustom {
+
+	background-color: #ffffff;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    font-weight: 600;
+    color: #F22579;
+}
+
+
+.navbar-brand {
+
+    margin: 0px 50px 0px 50px;
+}
+
+
+main .mask {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-attachment: fixed;
+}
+
+.text-white h4 {
+
+    width: 400px;
+    margin: 175px 0px 30px 40px;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+
+.text-white h1 {
+
+    width: 500px;
+    margin: 0px 0px 30px 50px;
+    font-size: 45pt;
+    text-align: left;
+}
+
+
+.text-white h5 {
+
+    width: 500px;
+    margin: 0px 0px 50px 50px;
+    line-height: 35px;
+    text-align: left;
+    
+}
+
+
+.custom-shape-divider-bottom-1616230710 {
+    position: absolute;
+    bottom: 1;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    margin-top: -50px;
+}
+
+.custom-shape-divider-bottom-1616230710 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 50px;
+}
+
+.custom-shape-divider-bottom-1616230710 .shape-fill {
+    fill: #000000;
+}
+
+
+
+
+
+
+
+/*----------------------------PRIMERA SECCION---------------------------*/
+.firsSec {
+
+    max-height: auto;
+    background-color: rgb(0, 0, 0);
+    padding-top: 100px;
+}
+
+.firsSec  h2 {
+
+    font-family: 'Lato', sans-serif;
+    font-size: 45px;
+    display: inline-block;
+    line-height: 15px;
+    margin: 15px 0px 0px 0px;
+    color: #fff;
+    
+}
+.tittleNos p {
+
+    color: #F22579;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+    margin: 0px 0px 0px 100px;
+    
+}
+
+
+.tittleNos span {
+
+    font-weight: 600;
+}
+
+
+
+.tittleNos img {
+
+    float: left;
+    margin: -30px 0px 0px 0px;
+    
+        
+}
+
+.textUs p {
+
+    color: rgb(233, 233, 233);
+    max-width: 80%;
+    text-align: justify;
+    font-size: 16px;
+    margin: 0px 0px 100px 0px;
+}
+
+.illusUs {
+
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.filter-green {
+
+  
+    max-width: 100px;
+    max-height: 100px;
+}
+
+
+.custom-shape-divider-bottom-1616231130 {
+    position: absolute;
+    bottom: 10;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    margin-top: -170px;
+}
+
+.custom-shape-divider-bottom-1616231130 svg {
+    position: relative;
+    display: block;
+    width: calc(108% + 1.3px);
+    height: 72px;
+}
+
+.custom-shape-divider-bottom-1616231130 .shape-fill {
+    fill: #ffffff;
+}
+
+
+/*----------------------------SEGUNDA SECCION---------------------------*/
+
+
+.secSec {
+
+    height: 1200px;
+    background-color: rgb(255, 255, 255);
+    padding-top: 100px;
+    
+}
+
+.secSec  h2 {
+
+    font-family: 'Lato', sans-serif;
+    font-size: 45px;
+    display: inline-block;
+    line-height: 15px;
+    margin: 15px 0px 150px 0px;
+    color: rgb(0, 0, 0);
+}
+.tittleServ p {
+
+    color: #F22579;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+    margin: 0px 0px 0px 100px;
+    
+}
+
+.tittleServ span {
+
+    font-weight: 600;
+}
+
+
+.tittleServ img {
+
+    float: left;
+    margin: -30px 0px 0px 0px;
+    
+        
+}
+
+
+
+#textServ {
+
+    height: 430px;
+}
+
+
+
+
+/*segunda fila de servicios*/
+
+
+
+
+.section-title {
+    margin-bottom: 38px
+}
+
+.shadow,
+.subscription-wrapper {
+    box-shadow: 0px 15px 39px 0px rgba(8, 18, 109, 0.1) !important;
+}
+
+.icon-primary {
+    color: #062caf
+}
+
+.icon-bg-circle {
+    position: relative
+}
+
+.icon-lg {
+    font-size: 50px
+}
+
+.icon-bg-circle::before {
+    z-index: 1;
+    position: relative
+}
+
+.icon-bg-primary::after {
+    background: #062caf !important
+}
+
+.icon-bg-circle::after {
+    content: '';
+    position: absolute;
+    width: 68px;
+    height: 68px;
+    top: -35px;
+    left: 15px;
+    border-radius: 50%;
+    background: inherit;
+    opacity: .1
+}
+
+p,
+.paragraph {
+    font-weight: 400;
+    color: #8b8e93;
+    font-size: 15px;
+    line-height: 1.6;
+    font-family: "Open Sans", sans-serif
+}
+
+.icon-bg-yellow::after {
+    background: #f6a622 !important
+}
+
+.icon-bg-purple::after {
+    background: #7952f5
+}
+
+.icon-yellow {
+    color: #f6a622
+}
+
+.icon-purple {
+    color: #7952f5
+}
+
+.icon-cyan {
+    color: #02d0a1
+}
+
+.icon-bg-cyan::after {
+    background: #02d0a1
+}
+
+.icon-bg-red::after {
+    background: #ff4949
+}
+
+.icon-red {
+    color: #ff4949
+}
+
+.icon-bg-green::after {
+    background: #66cc33
+}
+
+.icon-green {
+    color: #66cc33
+}
+
+.icon-bg-orange::after {
+    background: #ff7c17
+}
+
+.icon-orange {
+    color: #ff7c17
+}
+
+.icon-bg-blue::after {
+    background: #3682ff
+}
+
+.icon-blue {
+    color: #3682ff
+}
+
+
+
+/*----------------------------TERCERA SECCION---------------------------*/
+
+.spaceJobs {
+
+    margin-top: 50px;
+}
+.secProj {
+
+    height: 1200px;
+    background-color: rgb(0, 0, 0);
+    padding-top: 100px;
+}
+
+.secProj  h2 {
+
+    font-family: 'Lato', sans-serif;
+    font-size: 45px;
+    display: inline-block;
+    line-height: 15px;
+    margin: 15px 0px 0px 0px;
+    color: #fff;
+    
+}
+.tittleProj p {
+
+    color: #F22579;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+    margin: 0px 0px 0px 100px;
+    
+    
+}
+
+.tittleProj span {
+
+    font-weight: 600;
+    
+}
+
+
+.tittleProj img {
+
+    float: left;
+    margin: -30px 0px 0px 0px;
+    
+        
+}
+
+
+
+.filterProj {
+
+    float: right;
+    margin: 50px 0px 0px 0px;
+    font-size: 18px;    
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+.filterProj span {
+    
+    margin: 0px 10px 0px 10px;
+    color: #fff;
+}
+
+.cardJobs span{
+    font-size:15px;
+}
+a{
+  text-decoration:none; 
+  color: #F22579;
+  
+}
+.box{
+    padding:60px 0px;
+}
+
+.box-part{
+    background:rgb(255, 255, 255);
+    border-radius: 3px;
+    padding:60px 10px;
+    margin:30px 0px;
+    box-shadow: 0px 15px 39px 0px rgba(136, 142, 196, 0.4) !important;
+}
+.text{
+    margin:20px 0px;
+}
+
+
+/*form  v*/
+.custom-shape-divider-bottom-1616187612 {
+    position: absolute;
+    bottom: -1;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    margin-top: -70px;
+}
+
+.custom-shape-divider-bottom-1616187612 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 70px;
+}
+
+.custom-shape-divider-bottom-1616187612 .shape-fill {
+    fill: #000000;
+}
+
+
+/*------------entre proye y contact--------------------------------------*/
+
+
+
+.custom-shape-divider-bottom-1616231463 {
+    position: absolute;
+    bottom: 10;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1616231463 svg {
+    position: relative;
+    display: block;
+    width: calc(108% + 1.3px);
+    height: 72px;
+    transform: rotateY(180deg);
+    margin-top: 140px;
+}
+
+.custom-shape-divider-bottom-1616231463 .shape-fill {
+    fill: #ffffff;
+}
+
+
+
+
+/*----------------------------CUARTA SECCION---------------------------*/
+
+.contactus {
+
+   height: 870px;
+
+}
+
+
+.tittleForm {
+
+    margin: 100px 0px 0px 0px;
+}
+
+.tittleForm  h2 {
+
+    font-family: 'Lato', sans-serif;
+    font-size: 45px;
+    display: inline-block;
+    line-height: 15px;
+    margin: 15px 0px 0px 0px;
+    
+}
+.tittleForm  p {
+
+    color: #F22579;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+    margin: 0px 0px 0px 100px;
+    
+}
+
+.tittleForm  span {
+
+    font-weight: 600;
+}
+
+
+.tittleForm img {
+
+    float: left;
+    margin: -30px 0px 0px 0px;
+    
+        
+}
+
+
+.imageMail {
+
+    margin: 100px 0px 0px 100px;
+}
+
+
+.formSup {
+
+    background-color: rgb(255, 255, 255);    
+    padding: 30px;
+    border-radius: 5px;
+    float: right;
+    
+}
+ 
+.formSup h2 {
+
+    margin-bottom: 30px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    text-align: left;
+}
+
+
+form label {
+
+    margin: 20px 0px 10px 0px;
+    color: #000000;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+}
+
+form button {
+
+    margin: 20px 0px 0px 0px;
+    justify-content: center;
+    
+}
+
+.btn-primary {
+
+    background-color: #F22579;
+    border-color: #F22579;
+    
+}
+
+.btn-primary:hover {
+
+    background-color: #601C70;
+    border-color: #601C70;
+}
+
+.btn-lg {
+
+    width: 160px;
+}
+
+
+.formSup input {
+
+    background-color: #F1F1F1;
+    border-color: #F1F1F1;
+}
+
+.formSup input:focus {
+
+    border-color: #f2257a44;
+    box-shadow: 0 0 0 0.2rem #f2257a44;
+} 
+
+
+.formSup textarea {
+
+    background-color: #F1F1F1;
+    border-color: #F1F1F1;
+}
+
+.formSup textarea:focus {
+
+    border-color: #f2257a44;
+    box-shadow: 0 0 0 0.2rem #f2257a44;
+} 
+
+
+/*----------------entre contact y footer--------------*/
+
+.custom-shape-divider-bottom-1616231635 {
+    position: absolute;
+    bottom: 10;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    
+}
+
+.custom-shape-divider-bottom-1616231635 svg {
+    position: relative;
+    display: block;
+    width: calc(108% + 1.3px);
+    height: 41px;
+    transform: rotateY(180deg);
+    margin-bottom: 30px;
+}
+
+.custom-shape-divider-bottom-1616231635 .shape-fill {
+    fill: #000000;
+}
+
+
+
+
+/*Footer*/
+
+
+footer {
+
+    background-color: #000000;
+    height: 300px;
+    margin-top: 0px;
+
+}
+
+.probando {
+	
+	color: white;
+  
+}
+
+.probando img {
+
+  margin: 100px 0px 0px 0px;
+}
+
+
+#rrss {
+
+  margin: 100px 0px 0px 0px;
+}
+
+.lineapie {
+	text-align: center;
+	color: #F22579;
+    font-weight: 500;
+	font-family: 'Raleway', sans-serif;
+	font-size: 12pt;
+
+}
+
+
