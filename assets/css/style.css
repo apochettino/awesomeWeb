@@ -12,9 +12,10 @@ nav {
 }
 .navbar-light .navbar-nav .nav-link {
     color: #F22579;
-    margin: 0px 15px 0px 15px;
-    font-family: 'Lato', sans-serif;
-    font-size: 19px;
+    margin: 0px 10px 0px 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
     
 }
 
@@ -23,8 +24,7 @@ nav {
 	background-color: #ffffff;
 }
 
-.navbar-light .navbar-nav .nav-link:hover {
-    font-weight: 600;
+.navbar-light .navbar-nav .nav-link:hover {    
     color: #F22579;
 }
 
@@ -35,7 +35,91 @@ nav {
 }
 
 
-main .mask {
+
+
+
+/* NAVIGATION */
+nav {
+    width: 100%;
+    margin: 0 auto;
+    
+    
+  }
+  nav ul {
+    list-style: none;
+    text-align: center;
+  }
+  nav ul li {
+    display: inline-block;
+  }
+  nav ul li a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: #aaa;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin: 0 10px;
+  }
+  nav ul li a,
+  nav ul li a:after,
+  nav ul li a:before {
+    transition: all .5s;
+  }
+  nav ul li a:hover {
+    color: #555;
+  }
+  
+  
+  /* stroke */
+  nav.stroke ul li a,
+  nav.fill ul li a {
+    position: relative;
+  }
+  nav.stroke ul li a:after,
+  nav.fill ul li a:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0%;
+    content: '.';
+    color: transparent;
+    background: #aaa;
+    height: 1px;
+  }
+  nav.stroke ul li a:hover:after {
+    width: 100%;
+  }
+  
+  nav.fill ul li a {
+    transition: all 2s;
+  }
+  
+  nav.fill ul li a:after {
+    text-align: left;
+    content: '.';
+    margin: 0;
+    opacity: 0;
+  }
+  nav.fill ul li a:hover {
+    color: #fff;
+    z-index: 1;
+  }
+  nav.fill ul li a:hover:after {
+    z-index: -10;
+    animation: fill 1s forwards;
+    -webkit-animation: fill 1s forwards;
+    -moz-animation: fill 1s forwards;
+    opacity: 1;
+  }
+
+
+
+
+
+header .mask {
     position: absolute;
     top: 0;
     right: 0;
@@ -45,6 +129,15 @@ main .mask {
     height: 100%;
     overflow: hidden;
     background-attachment: fixed;
+}
+
+.bg-image {
+
+    background: url('../../img/web04.png') ;
+    height: 900px;
+    margin-top: -100px;
+    margin-left: -1px;
+   
 }
 
 .text-white h4 {
@@ -257,11 +350,11 @@ main .mask {
 
 .shadow,
 .subscription-wrapper {
-    box-shadow: 0px 15px 39px 0px rgba(8, 18, 109, 0.1) !important;
+    box-shadow: 0px 15px 39px 0px rgba(89, 8, 109, 0.1) !important;
 }
 
 .icon-primary {
-    color: #062caf
+    color: #F22579;
 }
 
 .icon-bg-circle {
@@ -278,7 +371,7 @@ main .mask {
 }
 
 .icon-bg-primary::after {
-    background: #062caf !important
+    background: #F22579 !important
 }
 
 .icon-bg-circle::after {
@@ -303,59 +396,59 @@ p,
 }
 
 .icon-bg-yellow::after {
-    background: #f6a622 !important
+    background: #601C70 !important
 }
 
 .icon-bg-purple::after {
-    background: #7952f5
+    background: #F22579
 }
 
 .icon-yellow {
-    color: #f6a622
+    color: #601C70
 }
 
 .icon-purple {
-    color: #7952f5
+    color: #F22579
 }
 
 .icon-cyan {
-    color: #02d0a1
+    color: #601C70
 }
 
 .icon-bg-cyan::after {
-    background: #02d0a1
+    background: #601C70
 }
 
 .icon-bg-red::after {
-    background: #ff4949
+    background: #F22579
 }
 
 .icon-red {
-    color: #ff4949
+    color: #F22579
 }
 
 .icon-bg-green::after {
-    background: #66cc33
+    background: #601C70
 }
 
 .icon-green {
-    color: #66cc33
+    color: #601C70
 }
 
 .icon-bg-orange::after {
-    background: #ff7c17
+    background: #F22579
 }
 
 .icon-orange {
-    color: #ff7c17
+    color: #F22579
 }
 
 .icon-bg-blue::after {
-    background: #3682ff
+    background: #601C70
 }
 
 .icon-blue {
-    color: #3682ff
+    color: #601C70
 }
 
 
@@ -368,7 +461,7 @@ p,
 }
 .secProj {
 
-    height: 1200px;
+    height: 1215px;
     background-color: rgb(0, 0, 0);
     padding-top: 100px;
 }
@@ -451,6 +544,25 @@ a{
 }
 
 
+.datosProj {
+
+    margin-top: 20px;
+}
+
+
+.datosProj p {
+
+    font-size: 25px;
+    color: #fff;
+}
+
+.datosProj h3 {
+
+    font-size: 60px;
+    color: #F22579;
+}
+
+
 /*form  v*/
 .custom-shape-divider-bottom-1616187612 {
     position: absolute;
@@ -493,7 +605,7 @@ a{
     width: calc(108% + 1.3px);
     height: 72px;
     transform: rotateY(180deg);
-    margin-top: 140px;
+    margin-top: 0px;
 }
 
 .custom-shape-divider-bottom-1616231463 .shape-fill {
@@ -705,10 +817,95 @@ footer {
 
 
 
-/*-----------------------------------*/
+/*---------------------------RRSS------------------------*/
+
+.tittleRedes {
+
+    margin: 0px 0px 30px 0px;
+    font-family: 'Annie Use Your Telescope', cursive;
+    font-size: 30px;
+
+}
 
 
+.social-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: -10px;
+}
+.social-buttons__button {
+    margin: 10px 5px 0;
+}
+.social-button {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    width: 70px;
+    height: 70px;
+    text-decoration: none;
+}
+.social-button__inner {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: calc(100% - 2px);
+    height: calc(100% - 2px);
+    border-radius: 100%;
+    background: #fff;
+    text-align: center;
+}
+.social-button i, .social-button svg {
+    position: relative;
+    z-index: 1;
+    transition: 0.3s;
+}
+.social-button i {
+    font-size: 28px;
+}
+.social-button svg {
+    height: 40%;
+    width: 40%;
+}
+.social-button::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    display: block;
+    width: 0;
+    height: 0;
+    border-radius: 100%;
+    transition: 0.3s;
+}
+.social-button:focus, .social-button:hover {
+    color: #fff;
+}
+.social-button:focus::after, .social-button:hover::after {
+    width: 100%;
+    height: 100%;
+    margin-left: -50%;
+}
+.social-button--mail {
+    color: #8f00af;
+}
+.social-button--mail::after {
+    background: #8f00af;
+}
+.social-button--facebook {
+    color: #3b5999;
+}
+.social-button--facebook::after {
+    background: #3b5999;
+}
 
-
-
+.social-button--instagram {
+    color: #e4405f;
+}
+.social-button--instagram::after {
+    background: linear-gradient(23deg, rgba(255,194,79,1) 0%, rgba(244,58,80,1) 26%, rgba(201,36,165,1) 54%, rgba(161,51,184,1) 81%, rgba(43,66,220,1) 100%);
+}
 
