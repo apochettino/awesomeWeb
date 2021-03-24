@@ -681,9 +681,12 @@ a{
 .formSup h2 {
 
     margin-bottom: 30px;
-    font-family: 'Lato', sans-serif;
-    font-weight: 600;
+    font-family: 'Annie Use Your Telescope', cursive;
+    font-weight: 500;
     text-align: left;
+    font-size: 50px;
+    margin-top: -20px;
+    color: #601C70;
 }
 
 
@@ -748,9 +751,12 @@ form button {
 } 
 
 
+
+      .
 /*----------------entre contact y footer--------------*/
 
-.custom-shape-divider-bottom-1616231635 {
+
+.diviFot .custom-shape-divider-bottom-1616231635 {
     position: absolute;
     bottom: 10;
     left: 0;
@@ -767,11 +773,11 @@ form button {
     width: calc(108% + 1.3px);
     height: 41px;
     transform: rotateY(180deg);
-    margin-bottom: 30px;
+    margin-bottom: -35px;
 }
 
 .custom-shape-divider-bottom-1616231635 .shape-fill {
-    fill: #000000;
+    fill: #ffffff;
 }
 
 
