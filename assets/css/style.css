@@ -292,6 +292,19 @@ header .mask {
 }
 
 
+.textUs .fa-rocket {
+
+    color: #F22579;
+}
+
+.textUs span {
+
+    font-size: 20px;
+    font-weight: 500;
+    color: #c612ee;
+    font-style: italic;
+}
+
 /*----------------------------SEGUNDA SECCION---------------------------*/
 
 
