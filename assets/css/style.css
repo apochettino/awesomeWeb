@@ -191,27 +191,6 @@ header .mask {
 }
 
 
-.custom-shape-divider-bottom-1616230710 {
-    position: absolute;
-    bottom: 1;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    transform: rotate(180deg);
-    margin-top: -50px;
-}
-
-.custom-shape-divider-bottom-1616230710 svg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 50px;
-}
-
-.custom-shape-divider-bottom-1616230710 .shape-fill {
-    fill: #000000;
-}
 
 
 /*Responsive ¡¡¡HEADER!!  Primero celu, después tablet*/
@@ -273,27 +252,6 @@ header .mask {
         max-height: 405px;
     }
 
-    .custom-shape-divider-bottom-1616230710 {
-        position: absolute;
-        bottom: 1;
-        left: 0;
-        width: 100%;
-        overflow: hidden;
-        line-height: 0;
-        transform: rotate(180deg);
-        margin-top: -540px;
-    }
-    
-    .custom-shape-divider-bottom-1616230710 svg {
-        position: relative;
-        display: block;
-        width: calc(100% + 1.3px);
-        height: 50px;
-    }
-    
-    .custom-shape-divider-bottom-1616230710 .shape-fill {
-        fill: #000000;
-    }
 
 
 /*-------------NUEVA NAVBVAR----------*/
@@ -431,7 +389,7 @@ header .mask {
         font-size: 2.4rem;
         width: 65vw;
         margin-left: 15px;
-        color: #18d26e;
+        color: #ffffff;
 
     }
 
@@ -452,29 +410,6 @@ header .mask {
         max-height: 57vh;
     }
 
-
-
-    .custom-shape-divider-bottom-1616230710 {
-        position: absolute;
-        bottom: 1;
-        left: 0;
-        width: 100%;
-        overflow: hidden;
-        line-height: 0;
-        transform: rotate(180deg);
-        margin-top: -55vh;
-    }
-    
-    .custom-shape-divider-bottom-1616230710 svg {
-        position: relative;
-        display: block;
-        width: calc(100% + 1.3px);
-        height: 50px;
-    }
-    
-    .custom-shape-divider-bottom-1616230710 .shape-fill {
-        fill: #dd1313;
-    }
 
 
     /*-------------NUEVA NAVBVAR----------*/
@@ -562,30 +497,7 @@ header .mask {
   
 }
 
-@media (min-width: 600px) {
 
-    .custom-shape-divider-bottom-1616230710 {
-        position: absolute;
-        bottom: 1;
-        left: 0;
-        width: 100%;
-        overflow: hidden;
-        line-height: 0;
-        transform: rotate(180deg);
-        margin-top: -47vh;
-    }
-    
-    .custom-shape-divider-bottom-1616230710 svg {
-        position: relative;
-        display: block;
-        width: calc(100% + 1.3px);
-        height: 50px;
-    }
-    
-    .custom-shape-divider-bottom-1616230710 .shape-fill {
-        fill: #15c440;
-    }
-}
 
 @media (min-width: 768px) {
     
@@ -631,7 +543,7 @@ header .mask {
         font-size: 2.4rem;
         width: 65vw;
         margin-left: 15px;
-        color: #d4ff13;
+        color: #ffffff;
 
     }
 
@@ -653,27 +565,6 @@ header .mask {
 
 
 
-    .custom-shape-divider-bottom-1616230710 {
-        position: absolute;
-        bottom: 1;
-        left: 0;
-        width: 100%;
-        overflow: hidden;
-        line-height: 0;
-        transform: rotate(180deg);
-        margin-top: -48vh;
-    }
-    
-    .custom-shape-divider-bottom-1616230710 svg {
-        position: relative;
-        display: block;
-        width: calc(100% + 1.3px);
-        height: 50px;
-    }
-    
-    .custom-shape-divider-bottom-1616230710 .shape-fill {
-        fill: #000000;
-    }
 
 
     /*-------------NUEVA NAVBVAR----------*/
@@ -756,37 +647,9 @@ header .mask {
         /*  display: none;*/
         visibility: hidden;
       }
-     
-
-     
-    
+         
 }
 
-@media (min-width: 977px) {
-
-
-    .custom-shape-divider-bottom-1616230710 {
-        position: absolute;
-        bottom: 1;
-        left: 0;
-        width: 100%;
-        overflow: hidden;
-        line-height: 0;
-        transform: rotate(180deg);
-        margin-top: -39vh;
-    }
-    
-    .custom-shape-divider-bottom-1616230710 svg {
-        position: relative;
-        display: block;
-        width: calc(100% + 1.3px);
-        height: 50px;
-    }
-    
-    .custom-shape-divider-bottom-1616230710 .shape-fill {
-        fill: #000000;
-    }
-}
 
 
 @media (min-width: 992px) {
@@ -833,7 +696,7 @@ header .mask {
         font-size: 2.8rem;
         width: 55vw;
         margin-left: 15px;
-        color: #b410ac;
+        color: #ffffff;
 
     }
 
@@ -855,28 +718,6 @@ header .mask {
     }
 
 
-
-    .custom-shape-divider-bottom-1616230710 {
-        position: absolute;
-        bottom: 1;
-        left: 0;
-        width: 100%;
-        overflow: hidden;
-        line-height: 0;
-        transform: rotate(180deg);
-        margin-top: -39vh;
-    }
-    
-    .custom-shape-divider-bottom-1616230710 svg {
-        position: relative;
-        display: block;
-        width: calc(100% + 1.3px);
-        height: 50px;
-    }
-    
-    .custom-shape-divider-bottom-1616230710 .shape-fill {
-        fill: #000000;
-    }
 
 
     /*-------------NUEVA NAVBVAR----------*/
@@ -1199,28 +1040,6 @@ header .mask {
         
     }
     
-    
-    .custom-shape-divider-bottom-1616230710 {
-        position: absolute;
-        bottom: 1;
-        left: 0;
-        width: 100%;
-        overflow: hidden;
-        line-height: 0;
-        transform: rotate(180deg);
-        margin-top: -19vh;
-    }
-    
-    .custom-shape-divider-bottom-1616230710 svg {
-        position: relative;
-        display: block;
-        width: calc(100% + 1.3px);
-        height: 50px;
-    }
-    
-    .custom-shape-divider-bottom-1616230710 .shape-fill {
-        fill: #000000;
-    }
     
 
 
@@ -1925,7 +1744,7 @@ a{
   #portfolio .portfolio-item figure .link-preview i, #portfolio .portfolio-item figure .link-details i {
     padding-top: 10px;
     font-size: 15px;
-    color: rgb(255, 255, 255);
+    color: #eb0f75;
   }
   
   #portfolio .portfolio-item figure .link-preview:hover, #portfolio .portfolio-item figure .link-details:hover {
