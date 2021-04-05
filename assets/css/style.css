@@ -2340,16 +2340,12 @@ form button {
         /*width: 250px !important;
         height: 250px !important;
         margin-top: -80px;*/
-        visibility: hidden;
+       /* visibility: hidden;*/
+       display: none;
        
     }
 
-    .formSup {
-
-        margin: 50px 0px 0px 0px; 
-
-    }
-
+    
     .bkgForm {
 
         width: 95%;
@@ -2358,7 +2354,8 @@ form button {
 
     .formSup {
 
-        margin-top: -600px;
+        margin-top: 50px;
+        margin-left: 5vw;
     }
 }
 
