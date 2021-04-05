@@ -2434,11 +2434,10 @@ form button {
 
     .imageMail {
 
-     width: 50px !important;
-     height: 50px !important;
      margin-top: 60px;
-     margin-left: -100px;
-     visibility: visible;
+    
+    /* visibility: visible;*/
+    display: unset;
         
     }
 
@@ -2467,9 +2466,11 @@ form button {
     
 @media (min-width: 1200px) {
 
-    .imageMail {
+    .playerSiz {
 
         padding-left: 130px;
+        max-width: 80vw !important;
+        max-height: 80vh !important;
     }
     
 }
